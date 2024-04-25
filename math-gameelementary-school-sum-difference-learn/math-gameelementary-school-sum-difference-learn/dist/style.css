@@ -1,0 +1,50 @@
+.instuct {
+  padding: 20px;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: Avenir, Helvetica, sans-serif;
+  color: green;
+  text-align: center;
+}
+
+.math {
+  height: 600px;
+  width: 100%;
+  position: relative;
+}
+.math .correct,
+.math .mistakes {
+  float: left;
+  width: 200px;
+  height: 100%;
+}
+.math .correct svg,
+.math .mistakes svg {
+  margin: 0;
+  height: 90px;
+}
+.math .problem {
+  display: block;
+  border: 4px double green;
+  border-radius: 25px;
+  width: 300px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: Avenir, Helvetica, sans-serif;
+  color: green;
+  text-align: center;
+}
+.math .tree {
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.math .apple {
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+}

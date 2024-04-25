@@ -1,0 +1,54 @@
+.instuct{
+   padding: 20px;
+    font:{
+      size: 35px;
+      weight: bold;
+      family: Avenir, Helvetica, sans-serif;
+    }
+     color: green;
+    text-align: center;
+}
+
+.math{ 
+  height: 600px;
+  width: 100%;
+  position: relative;
+  
+  .correct,
+  .mistakes{
+    float: left;
+    width: 200px;
+    height: 100%;
+    svg{
+      margin: 0;
+      height: 90px;
+    }
+  }
+  .problem{
+    display: block;
+    border: 4px double green;
+    border-radius: 25px;
+    width: 300px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    font:{
+      size: 45px;
+      weight: bold;
+      family: Avenir, Helvetica, sans-serif;
+    }
+     color: green;
+    text-align: center;
+  }
+    .tree{
+      height: 100%;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .apple {
+      display: inline-block;
+      cursor: pointer;
+      position: absolute;
+      }
+}
